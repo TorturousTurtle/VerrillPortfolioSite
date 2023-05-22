@@ -71,31 +71,30 @@ const Projects = () => {
                   </h2>
                 </div>
                 <div className="flex">
-                  {project.description.length > 100 ? (
-                    <>
-                      <div className="w-1/2 pr-2">
-                        <p className="leading-relaxed text-left">
-                          {project.description.slice(
-                            0,
-                            project.description.lastIndexOf(
-                              " ",
-                              project.description.length / 2
-                            )
-                          )}
-                        </p>
-                      </div>
-                      <div className="w-1/2 pl-2">
-                        <p className="leading-relaxed text-left">
-                          {project.description.slice(
-                            project.description.lastIndexOf(
-                              " ",
-                              project.description.length / 2
-                            )
-                          )}
-                        </p>
-                      </div>
-                    </>
-                  ) : (
+                  {project.description.length > 100 && (
+                    <div className="w-full md:w-1/2 pr-2">
+                      <p className="leading-relaxed text-left">
+                        {project.description.slice(
+                          0,
+                          project.description.lastIndexOf(
+                            " ",
+                            project.description.length / 2
+                          )
+                        )}
+                      </p>
+                    </div>
+                  )}
+                  <div className="w-full md:w-1/2 pl-2">
+                    <p className="leading-relaxed text-left">
+                      {project.description.slice(
+                        project.description.lastIndexOf(
+                          " ",
+                          project.description.length / 2
+                        )
+                      )}
+                    </p>
+                  </div>
+                  {project.description.length <= 100 && (
                     <p className="leading-relaxed">{project.description}</p>
                   )}
                 </div>
