@@ -57,7 +57,7 @@ const Projects = () => {
                     >
                       <Image
                         className="object-cover object-center rounded"
-                        alt="hero"
+                        alt={project.alt}
                         src={image}
                         width={150}
                         height={150}
