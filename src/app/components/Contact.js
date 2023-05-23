@@ -41,18 +41,10 @@ const Contact = () => {
             </p>
             <p className="text-gray-900 leading-relaxed text-left">
               <a
-                href="mailto:bverrill88@gmail.com"
+                href="mailto:benverrill88@gmail.com"
                 className="hover:text-blue-500 hover:underline"
               >
                 <LineBounce delay={0.5}>bverrill88@gmail.com</LineBounce>
-              </a>
-            </p>
-            <p className="text-gray-900 leading-relaxed text-left">
-              <a
-                href="tel:6036610129"
-                className="hover:text-blue-500 hover:underline"
-              >
-                <LineBounce delay={1}>603.661.0129</LineBounce>
               </a>
             </p>
             <p className="text-gray-900 leading-relaxed text-left">
