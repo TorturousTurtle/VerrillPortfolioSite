@@ -17,6 +17,15 @@ export const projects = [
       alt: "Nihongo Vocab. A Japanese Language Flash Card App",
       link: "https://github.com/TorturousTurtle/NihongoVocab",
     },
+    {
+      title: "Calendar Free Time",
+      subtitle: "React and Firebase Calendar Availability App",
+      description:
+      "I've spent over a decade in sales, and one of the annoying and time consuming issues I often run into is trying to provide customers the availability for multiple team members in my company with Gmail. So, I decided to write a script to automate that process for me. I quickly realized my colleagues could find a lot of value with it too, so I built a frontend user interface with NextJS for them to use. The login screen uses Firebase Authentication. Once users log in, they can choose who's availability needs to be include by clicking on their email. They then choose a start date and end date, and whether they need a 30 minute block of time or an hour. The app then sends an api request to an Express backend, which uses a Google api to find free times that are available within the timeframes given. Users can then simply click the \"Copy\" button and paste it in an email. There are some limitations currently. All times are provided in EST and only emails that have been hardcoded in can be selected from. In the future, I could add a feature to add calendars to the list, but for my current use case it's been working great!",
+      image: ["/calendarfreetime/calendarfreetime-login.PNG", "/calendarfreetime/calendarfreetime-ui.PNG", "/calendarfreetime/calendarfreetime-results.PNG"],
+      alt: "A Calendar Availability Tool",
+      link: "https://github.com/TorturousTurtle/CalendarFreeTime",
+    },
   ];
 
   export const skills = ['Javascript', 'Python', 'Java', 'C++', 'React', 'React Native', 'Node', 'Docker', 'AWS']

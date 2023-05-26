@@ -50,7 +50,7 @@ const About = () => {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <Image
             className="object-cover object-center rounded"
-            alt="hero"
+            alt="It's a pic of me in a suit looking very professional. I'm also very comfortable in a t-shirt!"
             src="/portrait-verrill.jpeg"
             width={400}
             height={400}
