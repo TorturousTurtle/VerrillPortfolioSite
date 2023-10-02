@@ -26,6 +26,15 @@ export const projects = [
       alt: "A Calendar Availability Tool",
       link: "https://github.com/TorturousTurtle/CalendarFreeTime",
     },
+    {
+      title: "Weight Gym! Website",
+      subtitle: "Next.js, Tailwind CSS, and Firebase Web App",
+      description:
+      "Weight Gym! originally got it’s start as a lifestyle clothing company for funny workout shirts. After building a workout app as a continuation of that idea, I realized it would be a lot of fun to build a web app where people could grab our logo and also track their progress online. I’m building the site using Next.js with a Firebase backend and decided to use Typescript for additional experience. I also decided to add a blog section with functionality to allow users to create new blogs depending on if they’re logged in and the role they have assigned to them. In the future, I’ll be adding an account page to show user workout information and other user data. This is a work in progress still, but feel free to check out the repo to see how things are going!",
+      image: ["/weightgymsite/wg-site-home.png", "/weightgymsite/wg-site-blog-logged-in.png", "/weightgymsite/wg-site-contact.png"],
+      alt: "A website for fitness clothes, advice, and tracking progress from the official app",
+      link: "https://github.com/TorturousTurtle/WeightGymWebSite",
+    },
   ];
 
-  export const skills = ['Javascript', 'Python', 'Java', 'C++', 'React', 'React Native', 'Node', 'Docker', 'AWS']
+  export const skills = ['CSS', 'HTML','Javascript', 'Typescript', 'Python', 'Java', 'C++', 'React', 'React Native', 'Node.js', 'Express.js', 'Docker', 'AWS', 'UI Design']

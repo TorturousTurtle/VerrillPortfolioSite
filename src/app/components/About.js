@@ -5,38 +5,43 @@ const About = () => {
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <section className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             Hi, I&apos;m Ben.
-            <br className="hidden lg:inline-block" />I think and I Build Things
+            <br className="hidden lg:inline-block" />I Imagine and then I Build
+            Things
           </h1>
           <p className="mb-8 leading-relaxed">
-            Over a decade in technology sales? Check. Constant drive to be
-            better and continue learning? You bet. But despite the work I was
-            doing, a few years back I realized something. I love building.
-            There&apos;s just something about turning a spark of an idea into a
-            full-blown application that lights me up. It wasn’t enough to simply
-            be selling ideas that others turned into things. I wanted to make
-            them too!
+            Over a decade in technology sales? Probably not the first skillset
+            you think of when talking about software development, but thinkg
+            about the soft skills! Insatiable drive to understand how the
+            technologies and concepts I&apos;m surrounded with actually work?
+            You bet. A few years back I realized something as my career in tech
+            progressed; I love building. There&apos;s just something about
+            turning a spark of an idea into a full-blown application that lights
+            me up. It wasn&apos;t enough to simply be selling ideas that others
+            turned into things. I wanted to make them too!
           </p>
           <p className="mb-8 leading-relaxed">
             Between balancing a full-time gig, chasing around two energetic
             boys, and somehow finding time to pursue a degree, I recently ended
             up getting a Computer Science degree from Southern New Hampshire
-            University and graduating summa cum laude. Not too shabby, right?
+            University and graduating summa cum laude. I take a lot of pride in
+            that work ethic!
           </p>
           <p className="mb-8 leading-relaxed">
-            Now, I built this portfolio website as my playground. It&apos;s
-            where I can show off the projects that I&apos;ve built from scratch
-            in the little free time I have available. It&apos;s proof that I
-            don&apos;t just code - I think, I design, and most importantly, I
-            create. Sure, my sales background gave me some great soft skills.
-            But developing and creating? That&apos;s what gets me fired up.
+            This portfolio website is my playground. It&apos;s purpose is to
+            show off the projects that I&apos;ve built from scratch in what free
+            time I have available to express my love for development and to make
+            a career change from selling software to making software. It&apos;s
+            proof that I don&apos;t just code - I imagine, I design, and most
+            importantly, I create. Sure, my sales background gave me some great
+            soft skills, but developing and creating are what get me
+            fired up!
           </p>
           <p className="mb-8 leading-relaxed">
             So go ahead, take a look around. See something you like? Want to
-            create something awesome together? Feel free to reach out.
-            Can&apos;t wait to see what we&apos;re going to build next.
+            create something awesome together? Feel free to reach out!
           </p>
           <div className="flex justify-center">
             <a
@@ -46,7 +51,7 @@ const About = () => {
               Work With Me
             </a>
           </div>
-        </div>
+        </section>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <Image
             className="object-cover object-center rounded"
