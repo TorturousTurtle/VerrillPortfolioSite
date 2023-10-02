@@ -13,8 +13,8 @@ const About = () => {
           </h1>
           <p className="mb-8 leading-relaxed">
             Over a decade in technology sales? Probably not the first skillset
-            you think of when talking about software development, but thinkg
-            about the soft skills! Insatiable drive to understand how the
+            you think of when talking about software development, but think
+            about the soft skills! How about insatiable drive to understand how the
             technologies and concepts I&apos;m surrounded with actually work?
             You bet. A few years back I realized something as my career in tech
             progressed; I love building. There&apos;s just something about
