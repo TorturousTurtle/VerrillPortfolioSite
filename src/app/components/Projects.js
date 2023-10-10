@@ -70,36 +70,45 @@ const Projects = () => {
                     {project.subtitle}
                   </h2>
                 </div>
-                <div className="flex">
-                  {project.description.length > 100 ? (
-                    <div className="flex flex-wrap">
-                      <div className="w-full md:w-1/2 pr-2">
-                        <p className="leading-relaxed text-left">
-                          {project.description.slice(
+              </a>
+              <div className="flex">
+                {project.description.length > 100 ? (
+                  <div className="flex flex-wrap">
+                    <div className="w-full md:w-1/2 pr-2">
+                      <p
+                        className="leading-relaxed text-left"
+                        dangerouslySetInnerHTML={{
+                          __html: project.description.slice(
                             0,
                             project.description.lastIndexOf(
                               " ",
                               project.description.length / 2
                             )
-                          )}
-                        </p>
-                      </div>
-                      <div className="w-full md:w-1/2 pl-2">
-                        <p className="leading-relaxed text-left">
-                          {project.description.slice(
+                          ),
+                        }}
+                      ></p>
+                    </div>
+                    <div className="w-full md:w-1/2 pl-2">
+                      <p
+                        className="leading-relaxed text-left"
+                        dangerouslySetInnerHTML={{
+                          __html: project.description.slice(
                             project.description.lastIndexOf(
                               " ",
                               project.description.length / 2
                             )
-                          )}
-                        </p>
-                      </div>
+                          ),
+                        }}
+                      ></p>
                     </div>
-                  ) : (
-                    <p className="leading-relaxed">{project.description}</p>
-                  )}
-                </div>
-              </a>
+                  </div>
+                ) : (
+                  <p
+                    className="leading-relaxed text-left"
+                    dangerouslySetInnerHTML={{ __html: project.description }}
+                  ></p>
+                )}
+              </div>
             </div>
           ))}
         </Carousel>
