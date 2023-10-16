@@ -8,7 +8,7 @@ const About = () => {
         <section className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             Hi, I&apos;m Ben.
-            <br className="hidden lg:inline-block" />I Imagine and then I Build
+            <br className="hidden lg:inline-block" />I Imagine and I Build
             Things
           </h1>
           <p className="mb-8 leading-relaxed">
@@ -17,7 +17,7 @@ const About = () => {
             about the soft skills! How about insatiable drive to understand how the
             technologies and concepts I&apos;m surrounded with actually work?
             You bet. A few years back I realized something as my career in tech
-            progressed; I love building. There&apos;s just something about
+            progressed; I loved building. There&apos;s just something about
             turning a spark of an idea into a full-blown application that lights
             me up. It wasn&apos;t enough to simply be selling ideas that others
             turned into things. I wanted to make them too!

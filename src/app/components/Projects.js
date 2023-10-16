@@ -65,7 +65,7 @@ const Projects = () => {
                     </div>
                   ))}
                 </div>
-                <div className="project-info">
+                <div>
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
@@ -74,7 +74,7 @@ const Projects = () => {
               <div className="flex">
                 {project.description.length > 100 ? (
                   <div className="flex flex-wrap">
-                    <div className="w-full md:w-1/2 pr-2">
+                    <section className="w-full md:w-1/2 pr-2">
                       <p
                         className="leading-relaxed text-left"
                         dangerouslySetInnerHTML={{
@@ -87,8 +87,8 @@ const Projects = () => {
                           ),
                         }}
                       ></p>
-                    </div>
-                    <div className="w-full md:w-1/2 pl-2">
+                    </section>
+                    <section className="w-full md:w-1/2 pl-2">
                       <p
                         className="leading-relaxed text-left"
                         dangerouslySetInnerHTML={{
@@ -100,7 +100,7 @@ const Projects = () => {
                           ),
                         }}
                       ></p>
-                    </div>
+                    </section>
                   </div>
                 ) : (
                   <p

@@ -12,7 +12,7 @@ const Skills = () => {
                 Skills &amp; Technologies
               </h1>
               <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-              From Python to JavaScript, Docker to AWS, this section showcases all of the languages and tools I&apos;ve worked with. Here, you&apos;ll find the core of my coding competence and the building blocks I use to turn ideas into digital reality.
+              From Python to JavaScript, Docker to AWS, this section showcases all of the languages and tools I&apos;ve worked with. Here, you&apos;ll find the core of my coding competence and the building blocks I use to turn my ideas into reality.
               </p>
             </div>
             <div className="flex flex-wrap justify-center lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
